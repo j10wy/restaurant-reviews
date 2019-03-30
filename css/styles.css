@@ -172,10 +172,6 @@ nav h1 a {
   width: 270px;
 }
 
-#restaurants-list li:last-of-type {
-  justify-self: left;
-}
-
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
