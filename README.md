@@ -32,3 +32,19 @@ const mapboxApiKey = "<MAPBOX API KEY HERE>";
 ### Project Rubric
 
 Your project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view). Please review for detailed project requirements. The rubric should be a resource you refer to periodically to make sure your project meets specifications.
+
+## Project 1 Feedback todo:
+
+You need to add viewport on the detail page which will help the content to look good on small screen sizes.
+
+You need to implement tabindex in index.html and restaurant.html which will help the focus to be appropriately managed.
+
+It is important that the breadcrumb is inside a _nav_ element because its purpose is navigation.
+
+The map needs an appropriate ARIA role which explains that it is an application inside the website.
+
+The restaurant's name in restaurant.html has a semantic mistake because it has h1 and the website's title that has a higher semantic importance also has h1. Therefore, the restaurant's name in restaurant.html needs to have a heading tag that has lower importance like h2.
+
+When available in the browser, the site uses a service worker to cache responses to requests for site assets. Visited pages are rendered when there is no network access.
+
+No service worker is being registered.
