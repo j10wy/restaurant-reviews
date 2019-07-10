@@ -33,9 +33,15 @@ const mapboxApiKey = "<MAPBOX API KEY HERE>";
 
 Your project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view). Please review for detailed project requirements. The rubric should be a resource you refer to periodically to make sure your project meets specifications.
 
-## Project 1 Feedback todo:
+### tabindex
 
-You need to add viewport on the detail page which will help the content to look good on small screen sizes.
+- Use tabindex=0 to include an element in the natural tab order of the content, but remember that an element that is focusable by default may be an easier option than a custom control
+
+- Use tabindex=-1 to give an element programmatic focus, but exclude it from the tab order of the content
+
+- Avoid using tabindex=1+ as much as possible.
+
+## Project 1 Feedback todo:
 
 You need to implement tabindex in index.html and restaurant.html which will help the focus to be appropriately managed.
 
