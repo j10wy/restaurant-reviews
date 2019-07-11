@@ -39,11 +39,11 @@ Your project will be evaluated by a Udacity code reviewer according to the [Rest
 
 - Use tabindex=-1 to give an element programmatic focus, but exclude it from the tab order of the content
 
-- Avoid using tabindex=1+ as much as possible.
+- Avoid using tabindex=1+ as much as possible. If you do use tabindex, restrict it to custom interactive controls like buttons, tabs, dropdowns, and text fields; that is, elements the user might expect to provide input to.
 
 ## Project 1 Feedback todo:
 
-You need to implement tabindex in index.html and restaurant.html which will help the focus to be appropriately managed.
+You need to implement tabindex in restaurant.html which will help the focus to be appropriately managed.
 
 It is important that the breadcrumb is inside a _nav_ element because its purpose is navigation.
 
