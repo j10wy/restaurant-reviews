@@ -19,7 +19,7 @@
   <body>
     <header>
       <nav>
-        <h1><a href="/">Restaurant Reviews</a></h1>
+        <h1><a tabindex="1" href="/">Restaurant Reviews</a></h1>
       </nav>
     </header>
 
@@ -36,7 +36,7 @@
               id="neighborhoods-select"
               name="neighborhoods"
               onchange="updateRestaurants()"
-              tabindex="0"
+              tabindex="1"
             >
               <option value="all">All Neighborhoods</option>
             </select>
@@ -45,7 +45,7 @@
               id="cuisines-select"
               name="cuisines"
               onchange="updateRestaurants()"
-              tabindex="0"
+              tabindex="1"
             >
               <option value="all">All Cuisines</option>
             </select>
@@ -72,7 +72,8 @@
     ></script>
 
     <footer id="footer">
-      Copyright (c) 2019 <a href="/"><strong>Restaurant Reviews</strong></a> All
+      Copyright (c) 2019
+      <a tabindex="1" href="/"><strong>Restaurant Reviews</strong></a> All
       Rights Reserved.
     </footer>
   </body>
